@@ -68,14 +68,15 @@
 <script>
 
 	var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'<a href="https://www.libertemontvalerien.org">K</a>, ' +
 			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 		mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',
 		tileUrl = 'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=b28a57409cfe4550b0a96821b7074fa3';
 
 	var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
 		streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr}),
-		cycle = L.tileLayer(tileUrl, {maxZoom: 18});
+		cycle = L.tileLayer(tileUrl, {attribution: mbAttr});
+//		cycle = L.tileLayer(tileUrl, {maxZoom: 18});
 
 	var map = L.map('map', {
 			center: [48.8710, 2.218551],
