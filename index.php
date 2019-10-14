@@ -1,3 +1,64 @@
+<head>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+
+<link href="/media/media/fontawesome-free-5.11.2-web/css/fontawesome.css" rel="stylesheet">
+<link href="/media/media/fontawesome-free-5.11.2-web/css/brands.css" rel="stylesheet">
+<link href="/media/media/fontawesome-free-5.11.2-web/css/solid.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/media/media/css/leaflet.awesome-markers.css">
+
+<script defer src="/media/media/fontawesome-free-5.11.2-web/js/all.js"></script> <!--load all styles -->
+
+
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+
+<script type="text/javascript" src="/media/media/js/leaflet.awesome-markers.min.js"></script>
+
+<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		#map {
+			width: 100%;
+			height: 850px;
+		}
+	</style>
+	
+<!-- Custome CSS -->
+ <!-- custom styling for all icons -->
+  i.fas,
+  i.fab {
+    border: 1px solid red;
+  }
+
+  <!-- custom styling for specific icons -->
+  .fa-fish {
+    color: salmon;
+  }
+
+  .fa-frog {
+    color: green;
+  }
+
+  .fa-user-ninja.vanished {
+    color: yellow;
+    opacity: 0.5;
+  }
+
+  .fa-facebook {
+    color: rgb(59, 91, 152);
+  }
+ 
+ </head>
+
+
 <div id='map'></div>
 
 <script src="/media/media/js/jardins_partages.js" type="text/javascript"></script>
