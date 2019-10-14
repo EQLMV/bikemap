@@ -57,6 +57,8 @@
   }
  
  </head>
+ 
+ <body>
 
 
 <div id='map'></div>
@@ -184,3 +186,5 @@ onEachFeature: onEachFeature,
 	L.control.watermark({ position: 'bottomleft' }).addTo(map);
 
 </script>
+
+</body>
