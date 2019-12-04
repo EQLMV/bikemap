@@ -1,4 +1,619 @@
 
+var parking_green = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+		"id": "1",  
+        "name": "Skatepark",
+		"address": "Promenade Jacques Baumel",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.216399,
+          48.875978
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "2",  
+        "name": "Gymnase des Cottages",
+		"address": "rue des Parigots",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.218416,
+          48.876390
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "3",  
+        "name": "Terrain 2 Rugby",
+		"address": "Stade Jean Moulin",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.213761,
+          48.876624
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+ 		"id": "4",  
+        "name": "Parking Abbe Stock",
+		"address": "Parking Abbe Stock",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.213375,
+          48.870580
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+ 		"id": "5",  
+        "name": "Gare Mont-Valérien",
+		"address": "Gare Mont-Valérien",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.220962,
+          48.872144
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "6",  
+        "name": "Hopital Foch",
+		"address": "rue Worth",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.221099,
+          48.871185
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "7",  
+        "name": "Belvédère - Lapostol",
+		"address": "rue Gardenat Lapostol",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.224547,
+          48.874280
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "8",  
+        "name": "Belvédère - Lapostol",
+		"address": "rue Gardenat Lapostol",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.224547,
+          48.874280
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+ 		"id": "9",  
+        "name": "Belvédère - Gemios",
+		"address": "rue Gardenat Lapostol",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.226537,
+          48.875814
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "10",  
+        "name": "Gymnase Belvédère",
+		"address": "",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.227384,
+          48.876948
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "11",  
+        "name": "Gambetta - Bas Roger",
+		"address": "rue Gambetta",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.231351,
+          48.879673
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "12",  
+        "name": "Carrefour - Verdun",
+		"address": "rue de Verdun",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.231935,
+          48.876052
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "13",  
+        "name": "Maternelle H. Dunant",
+		"address": "rue du Commandant Rivière",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.231801,
+          48.874936
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "14",  
+        "name": "Rothschild - Commandant Rivière",
+		"address": "rue Salomon de Rothschild",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.234210,
+          48.874525
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "15",  
+        "name": "Rothschild - Benoit Malon",
+		"address": "rue Salomon de Rothschild",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.232012,
+          48.872804
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "16",  
+        "name": "Pagès - Ledru Rollin",
+		"address": "rue Ledru Rollin",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.230417,
+          48.871636
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+ 		"id": "17",  
+        "name": "Médiathèque",
+		"address": "rue Ledru Rollin",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.229243,
+          48.870717
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "18",  
+         "name": "Place Henri IV",
+		"address": "Place Henri IV",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.227144,
+          48.870212
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+ 		"id": "19",  
+        "name": "école Simone Veil",
+		"address": "rue Alexandre Darracq",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.226488,
+          48.871170
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "20",  
+        "name": "PMI Darracq",
+		"address": "rue Alexandre Darracq",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.226124,
+          48.871789
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "21",  
+        "name": "Centre médical municipal",
+		"address": "rue Carnot",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.225263,
+          48.871617
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "22",  
+        "name": "Merlin Thionville",
+		"address": "rue Merlin de Thionville",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.223794,
+          48.870303
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "23",  
+        "name": "MUS",
+		"address": "rue Merlin de Thionville",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.221979,
+          48.868301
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "24",  
+        "name": "Parking Jules Ferry",
+		"address": "rue Jules Ferry",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.225126,
+          48.869507
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "25",  
+         "name": "Carrefour J. Ferry",
+		"address": "rue Jules Ferry",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.224914,
+          48.869063
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "26",  
+        "name": "Mission locale",
+		"address": "rue Etienne Dolet",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.226031,
+          48.868769
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "27",  
+        "name": "Parc du Château",
+		"address": "rue de Saint-Cloud",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.224333,
+          48.866039
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "28",  
+         "name": "rue des Meuniers",
+		"address": "rue des Meuniers",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.224477,
+          48.864338
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "29",  
+        "name": "rue de la République",
+		"address": "rue de la République",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.223016,
+          48.864399
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "30",  
+        "name": "Piscine des Raguidelles",
+		"address": "rue des Raguidelles",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.217803,
+          48.864463
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "31",  
+        "name": "école des Raguidelles",
+		"address": "chemin des Roses",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.216537,
+          48.865228
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "32",  
+        "name": "Parking Caron",
+		"address": "rue Albert Caron",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.210149,
+          48.864796
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "33",  
+        "name": "Marché Caron",
+		"address": "avenue Jean Jaurès",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.209698,
+          48.863363
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "34",  
+        "name": "Place de la Paix 1",
+		"address": "avenue du 18 Juin 1940",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.205905,
+          48.864805
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "35",  
+        "name": "Place de la Paix 2",
+		"address": "avenue du 18 Juin 1940",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.205097,
+          48.864970
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "36",  
+        "name": "Théâtre Jean Vilar",
+		"address": "place Stalingrad",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.201786,
+          48.863168
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "properties": {
+		"id": "37",  
+        "name": "Stade Maurice Hubert",
+		"address": "avenue Alexandre Maistrasse",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.201689,
+          48.865842
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+		"id": "38",  
+        "name": "Ecole des Cottages",
+		"address": "Rue des Cottages",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.218927,
+          48.877601
+        ]
+      }
+    }
+  ]
+};
+
 
 var parking_blue = {
 	
@@ -895,617 +1510,3 @@ var parking_blue = {
   ]
 };
 
-var parking_green = {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-		"id": "1",  
-        "name": "Skatepark",
-		"address": "Promenade Jacques Baumel",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.216399,
-          48.875978
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "2",  
-        "name": "Gymnase des Cottages",
-		"address": "rue des Parigots",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.218416,
-          48.876390
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "3",  
-        "name": "Terrain 2 Rugby",
-		"address": "Stade Jean Moulin",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.213761,
-          48.876624
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
- 		"id": "4",  
-        "name": "Parking Abbe Stock",
-		"address": "Parking Abbe Stock",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.213375,
-          48.870580
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
- 		"id": "5",  
-        "name": "Gare Mont-Valérien",
-		"address": "Gare Mont-Valérien",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.220962,
-          48.872144
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "6",  
-        "name": "Hopital Foch",
-		"address": "rue Worth",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.221099,
-          48.871185
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "7",  
-        "name": "Belvédère - Lapostol",
-		"address": "rue Gardenat Lapostol",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.224547,
-          48.874280
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "8",  
-        "name": "Belvédère - Lapostol",
-		"address": "rue Gardenat Lapostol",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.224547,
-          48.874280
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
- 		"id": "9",  
-        "name": "Belvédère - Gemios",
-		"address": "rue Gardenat Lapostol",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.226537,
-          48.875814
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "10",  
-        "name": "Gymnase Belvédère",
-		"address": "",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.227384,
-          48.876948
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "11",  
-        "name": "Gambetta - Bas Roger",
-		"address": "rue Gambetta",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.231351,
-          48.879673
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "12",  
-        "name": "Carrefour - Verdun",
-		"address": "rue de Verdun",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.231935,
-          48.876052
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "13",  
-        "name": "Maternelle H. Dunant",
-		"address": "rue du Commandant Rivière",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.231801,
-          48.874936
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "14",  
-        "name": "Rothschild - Commandant Rivière",
-		"address": "rue Salomon de Rothschild",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.234210,
-          48.874525
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "15",  
-        "name": "Rothschild - Benoit Malon",
-		"address": "rue Salomon de Rothschild",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.232012,
-          48.872804
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "16",  
-        "name": "Pagès - Ledru Rollin",
-		"address": "rue Ledru Rollin",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.230417,
-          48.871636
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
- 		"id": "17",  
-        "name": "Médiathèque",
-		"address": "rue Ledru Rollin",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.229243,
-          48.870717
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "18",  
-         "name": "Place Henri IV",
-		"address": "Place Henri IV",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.227144,
-          48.870212
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
- 		"id": "19",  
-        "name": "école Simone Veil",
-		"address": "rue Alexandre Darracq",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.226488,
-          48.871170
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "20",  
-        "name": "PMI Darracq",
-		"address": "rue Alexandre Darracq",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.226124,
-          48.871789
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "21",  
-        "name": "Centre médical municipal",
-		"address": "rue Carnot",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.225263,
-          48.871617
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "22",  
-        "name": "Merlin Thionville",
-		"address": "rue Merlin de Thionville",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.223794,
-          48.870303
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "23",  
-        "name": "MUS",
-		"address": "rue Merlin de Thionville",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.221979,
-          48.868301
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "24",  
-        "name": "Parking Jules Ferry",
-		"address": "rue Jules Ferry",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.225126,
-          48.869507
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "25",  
-         "name": "Carrefour J. Ferry",
-		"address": "rue Jules Ferry",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.224914,
-          48.869063
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "26",  
-        "name": "Mission locale",
-		"address": "rue Etienne Dolet",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.226031,
-          48.868769
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "27",  
-        "name": "Parc du Château",
-		"address": "rue de Saint-Cloud",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.224333,
-          48.866039
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "28",  
-         "name": "rue des Meuniers",
-		"address": "rue des Meuniers",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.224477,
-          48.864338
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "29",  
-        "name": "rue de la République",
-		"address": "rue de la République",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.223016,
-          48.864399
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "30",  
-        "name": "Piscine des Raguidelles",
-		"address": "rue des Raguidelles",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.217803,
-          48.864463
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "31",  
-        "name": "école des Raguidelles",
-		"address": "chemin des Roses",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.216537,
-          48.865228
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "32",  
-        "name": "Parking Caron",
-		"address": "rue Albert Caron",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.210149,
-          48.864796
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "33",  
-        "name": "Marché Caron",
-		"address": "avenue Jean Jaurès",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.209698,
-          48.863363
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "34",  
-        "name": "Place de la Paix 1",
-		"address": "avenue du 18 Juin 1940",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.205905,
-          48.864805
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "35",  
-        "name": "Place de la Paix 2",
-		"address": "avenue du 18 Juin 1940",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.205097,
-          48.864970
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "36",  
-        "name": "Théâtre Jean Vilar",
-		"address": "place Stalingrad",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.201786,
-          48.863168
-        ]
-      }
-    },
-{
-      "type": "Feature",
-      "properties": {
-		"id": "37",  
-        "name": "Stade Maurice Hubert",
-		"address": "avenue Alexandre Maistrasse",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.201689,
-          48.865842
-        ]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-		"id": "38",  
-        "name": "Ecole des Cottages",
-		"address": "Rue des Cottages",
-        "description": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.218927,
-          48.877601
-        ]
-      }
-    }
-  ]
-};
